@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorteador de numero</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Zen+Loop:ital@1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Loop:ital@1&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Abel&family=Dancing+Script&family=Source+Code+Pro:ital,wght@0,200;0,400;1,400&family=Zen+Loop:ital@1&display=swap" rel="stylesheet"> 
+
+
+
+
+</head>
+<body>
+    <div class="geral">
+        <div class="titulo">
+            <h3>SORTENUMBER</h3>
+        </div><!--titulo-->
+        <div class="apresentacao">
+            <h3>Relaxa! Este site sorteará um numero aleatório para você!</h3>
+        </div><!--apresentacao-->
+        <div class="caixa-minimo">
+            <p>Digite o valor mínimo para sorteio:</p>    
+            <input id="valorminimo" type="name"  placeholder="ex: 1" ></input>
+        </div><!--caixa-minimo-->
+        <div class="caixa-maximo">
+            <p>Digite o valor máximo para sorteio:</p>
+            <input id="valormaximo" type="name" placeholder="ex: 100" ></input>
+        </div><!--caixa-maximo-->
+        <div class="caixa-resposta">
+            <p>Esse foi o valor sorteado</p>
+            <textarea id="valordosorteio" placeholder=""></textarea>
+        </div><!--caixa-resposta-->
+        <div class="botao">
+            <button class="fas fa-reply" id="botao-teste" onclick="resetar()"> Resetar</button>
+            <button class="fas fa-arrow-right" id="botao-teste" onclick="apertar()"> Sortear</button>
+        </div><!--botao-->
+        
+
+
+
+        <!--<span id="valordosorteio">...</span></p>-->
+
+
+
+
+
+
+
+    </div><!--geral-->
+
+<script src="jquery.js"></script>
+<script src="main.js"></script>
+
+</body>
+</html>
