@@ -23,6 +23,11 @@ function apertar(){
         
     }
 
+    if(valormaximo >= 7000000000000000000000){
+        $("#valordosorteio").text('erro')
+        alert("Este valor é muito grande, por favor insira um menor")
+    }
+
     
 
 };
